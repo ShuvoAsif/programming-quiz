@@ -1,0 +1,41 @@
+.quiz {
+    width: 100%;
+    height: 350px;
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+    position: relative;
+}
+
+.quiz img {
+    height: 250px;
+    width: 250px;
+    border-radius: 8px;
+    background-color: #95A0A7;
+}
+
+
+
+.quiz-name {
+    font-family: 'Lato';
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 7px;
+}
+
+.btn-quiz {
+    width: 100%;
+    background: rgb(47, 136, 237);
+    border: none;
+    border-radius: 0px 0px 8px 8px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-quiz:hover {
+    background-color: rgb(49, 35, 239);
+}
