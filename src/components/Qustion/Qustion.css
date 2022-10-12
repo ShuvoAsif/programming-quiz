@@ -1,0 +1,29 @@
+.qustion h3 {
+    padding: 5px;
+}
+
+.qus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+.qustion button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    background: rgb(47, 136, 237);
+    border: none;
+    font-size: 15px;
+    border-radius: 8px 8px 8px 8px;
+    padding: 10px;
+}
+
+.qustion button:hover {
+    background-color: violet;
+}
