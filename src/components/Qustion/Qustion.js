@@ -20,6 +20,7 @@ const Qustion = ({ qustion }) => {
 
     return (
         <div className='qustion'>
+            <h1>{ }</h1>
             <div className='qus'>
                 <h3>{qustion.question}</h3>
                 <FontAwesomeIcon onClick={() => ansHandeler()} icon={faEye}></FontAwesomeIcon>
